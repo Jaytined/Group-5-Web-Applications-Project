@@ -97,3 +97,27 @@ section.viewing:hover {
 section.form{
     padding-top: 60px;
 }
+
+div.day {
+    font-weight: bolder;
+    font-size:x-large;
+    padding-top: 75px;
+}
+ul.list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    list-style-type: none;
+    row-gap: 1px;
+}
+
+div.event{
+    margin-top: 25px;
+
+    border: 1px;
+    border-style: solid;
+}
+
+section.viewDetail{
+    padding-top: 60px;
+}
