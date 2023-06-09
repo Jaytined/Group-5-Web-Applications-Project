@@ -1,3 +1,7 @@
+body {
+    background-color: #fef9e7; /* just temp background-color, can be changed! */
+}
+
 .footer {
     position: fixed;
     left: 0;
@@ -32,6 +36,7 @@ nav.header li{
 
     position: relative;
     top: 50px;
+    left: 15px;
 
 }
 /* nav.header li:hover{
@@ -40,3 +45,55 @@ nav.header li{
 nav.header li:active{
     background-color: ;
 } */
+
+
+.home{
+    position: relative;
+    top: 100px;
+}
+
+section.description{
+    /* color: blue; temp color */
+    
+}
+section.description:hover {
+    transform: scale(1.15);
+    transition: transform 775ms;
+}
+
+section.function{
+    /* color: red; temp color */
+    text-align: center;
+    padding-left: 125px;
+    padding-top: 200px;
+
+    display: inline-block;
+    border: 2px;
+    border-radius: 2px;
+    border-style: hidden;
+    
+}
+section.function:hover {
+    transform: scale(1.15);
+    transition: transform 775ms;
+}
+
+section.viewing{
+    /* color: red; temp color */
+    text-align: center;
+    padding-left: 435px;
+
+    display: inline-block;
+    border: 2px;
+    border-radius: 2px;
+    border-style: hidden;
+    
+}
+section.viewing:hover {
+    transform: scale(1.15);
+    transition: transform 775ms;
+}
+
+section.form{
+    padding-top: 60px;
+}
