@@ -7,3 +7,36 @@
     color: white; */
 
 }
+
+img.banner{
+    width: 600px;
+    height: 150px;
+}
+
+div.login{
+    text-align: right;
+    padding-right: 50px;
+}
+
+nav.header li{
+    text-align: center;
+    list-style-type: none;
+    display: inline-flex;
+    margin: 1px;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 25px;
+    color: black;
+    font-size: 18px;
+    /* background-color: ; */
+
+    position: relative;
+    top: 50px;
+
+}
+/* nav.header li:hover{
+    background-color: ;
+}
+nav.header li:active{
+    background-color: ;
+} */
