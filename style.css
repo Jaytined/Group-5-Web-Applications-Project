@@ -23,6 +23,14 @@ div.login{
     padding-right: 50px;
 }
 
+@keyframes color-change {
+    0% {background-color: #DAF7A6;}
+    25% {background-color: #FFC300;}
+    50% {background-color: #FF5733;}
+    75% {background-color: #FFC300;}
+    100% {background-color: #DAF7A6;}
+}
+
 nav.header li{
     text-align: center;
     list-style-type: none;
@@ -33,12 +41,14 @@ nav.header li{
     border-radius: 25px;
     color: black;
     font-size: 18px;
-    /* background-color: ; */
     position: relative;
     top: 50px;
     left: 15px;
-
+    animation-name: color-change;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
+
 /* nav.header li:hover{
     background-color: ;
 }
