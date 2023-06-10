@@ -63,7 +63,7 @@ nav.header li:active{
 
 section.description{
     text-align: center;
-    padding-left: 125px;
+    padding-left: 100px;
     padding-top: 200px;
 
     display: inline-block;
@@ -78,7 +78,7 @@ section.description:hover {
 
 section.function{
     text-align: center;
-    padding-left: 125px;
+    padding-left: 100px;
     padding-top: 200px;
 
     display: inline-block;
