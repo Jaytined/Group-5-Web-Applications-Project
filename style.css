@@ -68,8 +68,8 @@ nav.header li:active{
 
 section.description{
     text-align: center;
-    padding: 125px;
-    grid-column: 1;
+    padding: 75px;
+    grid-column: 3/2;
     grid-row: 1;
 
     display: inline-block;
@@ -84,7 +84,7 @@ section.description:hover {
 
 section.function{
     text-align: center;
-    padding: 125px;
+    padding: 75px;
     grid-column: 1;
     grid-row: 2;
 
@@ -101,7 +101,7 @@ section.function:hover {
 
 section.viewing{
     text-align: center;
-    padding: 125px;
+    padding: 75px;
     grid-column: 2;
     grid-row: 2;
 
