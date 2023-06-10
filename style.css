@@ -61,10 +61,16 @@ nav.header li:active{
     top: 100px;
 }
 
+#main-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 section.description{
     text-align: center;
-    padding-left: 100px;
-    padding-top: 200px;
+    padding: 125px;
+    grid-column: 1;
+    grid-row: 1;
 
     display: inline-block;
     border: 2px;
@@ -78,8 +84,9 @@ section.description:hover {
 
 section.function{
     text-align: center;
-    padding-left: 100px;
-    padding-top: 200px;
+    padding: 125px;
+    grid-column: 1;
+    grid-row: 2;
 
     display: inline-block;
     border: 2px;
@@ -94,7 +101,9 @@ section.function:hover {
 
 section.viewing{
     text-align: center;
-    padding-left: 435px;
+    padding: 125px;
+    grid-column: 2;
+    grid-row: 2;
 
     display: inline-block;
     border: 2px;
