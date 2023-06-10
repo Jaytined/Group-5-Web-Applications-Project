@@ -12,8 +12,9 @@ body {
 
 }
 
-.banner{
-    background-image= url("mango-gradient.png");
+.banner img{
+    z-index: 1;
+    width= 100%;
 }
 
 div.login{
