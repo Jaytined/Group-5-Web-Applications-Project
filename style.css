@@ -1,5 +1,5 @@
 body {
-    background-color: #fef9e7; /* just temp background-color, can be changed! */
+    background-color: #fef9e7;
 }
 
 .footer {
@@ -56,18 +56,20 @@ nav.header li:active{
     background-color: ;
 } */
 
-a{
-    color= black;
-}
-
 .home{
     position: relative;
     top: 100px;
 }
 
 section.description{
-    /* color: blue; temp color */
-    
+    text-align: center;
+    padding-left: 125px;
+    padding-top: 200px;
+
+    display: inline-block;
+    border: 2px;
+    border-radius: 2px;
+    border-style: hidden;
 }
 section.description:hover {
     transform: scale(1.15);
@@ -75,7 +77,6 @@ section.description:hover {
 }
 
 section.function{
-    /* color: red; temp color */
     text-align: center;
     padding-left: 125px;
     padding-top: 200px;
@@ -92,7 +93,6 @@ section.function:hover {
 }
 
 section.viewing{
-    /* color: red; temp color */
     text-align: center;
     padding-left: 435px;
 
