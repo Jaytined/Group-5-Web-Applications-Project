@@ -8,7 +8,7 @@ body {
     bottom: 0;
     width: 100%;
     background-color: #DAF7A6;
-    color: #fef9e7;
+    color: #FF5733;
 
 }
 
@@ -45,7 +45,7 @@ nav.header li{
     top: 50px;
     left: 15px;
     animation-name: color-change;
-    animation-duration: 3s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
 }
 
