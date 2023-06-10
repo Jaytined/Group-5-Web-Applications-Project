@@ -8,7 +8,7 @@ body {
     bottom: 0;
     width: 100%;
     background-color: #DAF7A6;
-    color: #FF5733;
+    color: black;
 
 }
 
@@ -56,6 +56,9 @@ nav.header li:active{
     background-color: ;
 } */
 
+a{
+    color= black;
+}
 
 .home{
     position: relative;
