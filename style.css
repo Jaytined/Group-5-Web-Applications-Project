@@ -1,5 +1,5 @@
 body {
-    background-color: #fef9e7;
+    background-color: #fef9e7; /* just temp background-color, can be changed! */
 }
 
 .footer {
@@ -9,7 +9,7 @@ body {
     width: 100%;
     background-color: #DAF7A6;
     color: black;
-
+    padding-top: 15px;
 }
 
 .banner{
@@ -18,10 +18,24 @@ body {
     background-size: 100% 100%;
 }
 
+
+
+img.image{
+    float:inline-start;
+    width: 100px;
+    height: 100px;
+}
+
 div.login{
     text-align: right;
     padding-right: 50px;
 }
+/* div.login{
+    background-color: #DAF7A6;
+    margin-top: -16px;
+    text-align: right;
+    padding-right: 50px;
+} */
 
 @keyframes color-change {
     0% {background-color: #fef9e7;}
@@ -31,7 +45,11 @@ div.login{
     100% {background-color: #fef9e7;}
 }
 
-nav.header li{
+nav.heading{
+    /* background-color: #DAF7A6; */
+    padding-bottom: 15px;
+}
+nav.heading li{
     text-align: center;
     list-style-type: none;
     display: inline-flex;
@@ -41,41 +59,33 @@ nav.header li{
     border-radius: 25px;
     color: black;
     font-size: 18px;
+    /* background-color: #c1f363; */
+
     position: relative;
-    top: 50px;
     left: 15px;
+
+    top: 50px;
     animation-name: color-change;
     animation-duration: 6s;
     animation-iteration-count: infinite;
-}
 
-/* nav.header li:hover{
-    background-color: ;
 }
-nav.header li:active{
-    background-color: ;
-} */
+nav.heading li:hover{
+    background-color: #fef5e7;
+}
 
 .home{
     position: relative;
     top: 100px;
 }
 
-#main-info{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
 section.description{
-    text-align: center;
-    padding: 75px;
-    grid-column: 2;
-    grid-row: 1;
-
-    display: inline-block;
-    border: 2px;
-    border-radius: 2px;
-    border-style: hidden;
+    color: rgb(255, 188, 105);
+    text-shadow: -0.5px -0.5px 0 black,
+                  0.5px -0.5px 0 black,
+                 -0.5px 0.5px 0 black,
+                  0.5px 0.5px 0 black; 
+    
 }
 section.description:hover {
     transform: scale(1.15);
@@ -84,14 +94,18 @@ section.description:hover {
 
 section.function{
     text-align: center;
-    padding: 75px;
-    grid-column: 1;
-    grid-row: 2;
+    padding-left: 125px;
+    padding-top: 200px;
 
     display: inline-block;
     border: 2px;
     border-radius: 2px;
     border-style: hidden;
+    color: rgb(255, 188, 105);
+    text-shadow: -0.5px -0.5px 0 black,
+                  0.5px -0.5px 0 black,
+                 -0.5px 0.5px 0 black,
+                  0.5px 0.5px 0 black; 
     
 }
 section.function:hover {
@@ -101,14 +115,17 @@ section.function:hover {
 
 section.viewing{
     text-align: center;
-    padding: 75px;
-    grid-column: 3;
-    grid-row: 2;
+    padding-left: 435px;
 
     display: inline-block;
     border: 2px;
     border-radius: 2px;
     border-style: hidden;
+    color: rgb(255, 188, 105);
+    text-shadow: -0.5px -0.5px 0 black,
+                  0.5px -0.5px 0 black,
+                 -0.5px 0.5px 0 black,
+                  0.5px 0.5px 0 black; 
     
 }
 section.viewing:hover {
@@ -138,6 +155,16 @@ div.event{
 
     border: 1px;
     border-style: solid;
+    background-color: #fdedec;
+    padding-bottom: 2px;
+}
+div.viewEvent{
+    margin-top: 25px;
+
+    border: 1px;
+    border-style: solid;
+    display: inline-flex;
+    background-color: #fdedec;
 }
 
 section.viewDetail{
