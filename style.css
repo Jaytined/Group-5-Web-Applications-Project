@@ -12,9 +12,8 @@ body {
 
 }
 
-img.banner{
-    width: 600px;
-    height: 150px;
+header{
+    background-image= url("mango-gradient.png");
 }
 
 div.login{
@@ -33,7 +32,6 @@ nav.header li{
     color: black;
     font-size: 18px;
     /* background-color: ; */
-    background-image: url("mango-gradient.png");
     position: relative;
     top: 50px;
     left: 15px;
