@@ -24,11 +24,11 @@ div.login{
 }
 
 @keyframes color-change {
-    0% {background-color: #DAF7A6;}
-    25% {background-color: #FFC300;}
-    50% {background-color: #fe8f1b;}
-    75% {background-color: #FFC300;}
-    100% {background-color: #DAF7A6;}
+    0% {background-color: #fef9e7;}
+    25% {background-color: #DAF7A6;}
+    50% {background-color: #FFC300;}
+    75% {background-color: #DAF7A6;}
+    100% {background-color: #fef9e7;}
 }
 
 nav.header li{
