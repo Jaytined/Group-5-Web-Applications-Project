@@ -1,5 +1,5 @@
 body {
-    background-color: #fef9e7; /* just temp background-color, can be changed! */
+    background-color: #fef9e7; 
 }
 
 .footer {
@@ -29,12 +29,6 @@ div.login{
     text-align: right;
     padding-right: 50px;
 }
-/* div.login{
-    background-color: #DAF7A6;
-    margin-top: -16px;
-    text-align: right;
-    padding-right: 50px;
-} */
 
 @keyframes color-change {
     0% {background-color: #fef9e7;}
