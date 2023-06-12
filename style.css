@@ -19,7 +19,6 @@ body {
 }
 
 
-
 img.image{
     float:inline-start;
     width: 100px;
@@ -46,8 +45,13 @@ div.login{
 }
 
 nav.heading{
-    /* background-color: #DAF7A6; */
     padding-bottom: 15px;
+}
+nav.heading:hover > li{
+    animation: 0;
+}
+nav.heading li:hover{
+    background-color: #FFC300;
 }
 nav.heading li{
     text-align: center;
@@ -59,7 +63,6 @@ nav.heading li{
     border-radius: 25px;
     color: black;
     font-size: 18px;
-    /* background-color: #c1f363; */
 
     position: relative;
     left: 15px;
@@ -68,10 +71,10 @@ nav.heading li{
     animation-name: color-change;
     animation-duration: 6s;
     animation-iteration-count: infinite;
-
 }
-nav.heading li:hover{
-    background-color: #fef5e7;
+a{
+    color: black;
+    text-decoration:none;
 }
 
 .home{
@@ -141,6 +144,8 @@ div.day {
     font-weight: bolder;
     font-size:x-large;
     padding-top: 75px;
+    width: 250px;
+    height: 175px;
 }
 ul.list {
     display: grid;
@@ -157,6 +162,10 @@ div.event{
     border-style: solid;
     background-color: #fdedec;
     padding-bottom: 2px;
+
+    width: 250px;
+    height: 175px;
+    overflow-y: scroll;
 }
 div.viewEvent{
     margin-top: 25px;
@@ -169,4 +178,8 @@ div.viewEvent{
 
 section.viewDetail{
     padding-top: 60px;
+}
+
+span {
+    font-weight: bold;
 }
