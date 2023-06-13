@@ -60,7 +60,7 @@ nav.heading li{
     position: relative;
     left: 15px;
 
-    top: 50px;
+    top: 25px;
     animation-name: color-change;
     animation-duration: 6s;
     animation-iteration-count: infinite;
