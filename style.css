@@ -9,6 +9,7 @@ body {
     width: 100%;
     background-color: #DAF7A6;
     color: black;
+    padding-top: 15px;
 }
 
 .banner{
@@ -40,13 +41,13 @@ div.login{
 nav.heading{
     padding-bottom: 15px;
 }
-nav.heading:hover > li{
+nav.heading:hover > ul{
     animation: 0;
 }
-nav.heading li:hover{
+nav.heading ul:hover{
     background-color: #FFC300;
 }
-nav.heading li{
+nav.heading ul{
     text-align: center;
     list-style-type: none;
     display: inline-flex;
@@ -60,7 +61,7 @@ nav.heading li{
     position: relative;
     left: 15px;
 
-    top: 25px;
+    top: 50px;
     animation-name: color-change;
     animation-duration: 6s;
     animation-iteration-count: infinite;
@@ -153,7 +154,6 @@ section.viewing:hover {
 
 section.form{
     padding-top: 60px;
-    padding-bottom: 40px;
 }
 
 div.day {
